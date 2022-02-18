@@ -22,62 +22,14 @@ a {
 .nav-item a {
   font-size: 12px !important;
 }
-.header .top-header nav ul li::before {
-  content: " ";
-  position: absolute;
-  width: 0;
-  height: 2px;
-  background-color: #fff;
-  bottom: -2px;
-  transition: all ease-in-out 0.4s;
-  -webkit-transition: all ease-in-out 0.4s;
-  -moz-transition: all ease-in-out 0.4s;
-  -ms-transition: all ease-in-out 0.4s;
-  -o-transition: all ease-in-out 0.4s;
+
+.navbar {
+  padding: 0 !important;
 }
 
-.header .top-header nav ul li:hover::before {
-  content: " ";
-  position: absolute;
-  width: 50%;
-  height: 2px;
-  background-color: #fff;
-  bottom: -2px;
+.navbar-brand {
+  margin-right: 0 !important;
 }
-.header .top-header nav ul li a {
-  font-size: 11px;
-  color: #fff;
-  font-weight: 500;
-}
-
-.top-header-items {
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-
-.logo a {
-  font-size: 18px;
-  color: #fff;
-  cursor: pointer;
-  position: relative;
-  padding: 0 5px;
-}
-
-.logo a:hover {
-  color: #fff;
-}
-
-.logo a::after {
-  content: " ";
-  position: absolute;
-  width: 2px;
-  height: 25px;
-  background-color: #fff;
-  left: -6px;
-  top: 4px;
-}
-
 /* bottom-heaeder */
 
 .bottom-header {
