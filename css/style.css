@@ -19,31 +19,9 @@ a {
   text-decoration: none !important;
 }
 
-.header {
+.nav-item a {
+  font-size: 12px !important;
 }
-
-.header .top-header {
-  background-color: var(--red);
-  height: 45px;
-}
-
-.top-header-items {
-  display: flex;
-  align-items: center;
-}
-.header .top-header nav {
-  margin-right: 5px;
-}
-.header .top-header nav ul {
-  display: inline;
-}
-
-.header .top-header nav ul li {
-  display: inline-block;
-  margin-right: 15px;
-  position: relative;
-}
-
 .header .top-header nav ul li::before {
   content: " ";
   position: absolute;
@@ -178,7 +156,7 @@ a {
 
 /* slider */
 
-#carouselExampleIndicators {
+#carouselExampleControls {
   margin-top: 15px;
 }
 
