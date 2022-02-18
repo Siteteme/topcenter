@@ -140,7 +140,7 @@ a {
 
 .login a {
   font-size: 12px;
-  margin-left: 15px;
+  margin-right: 15px;
 }
 .search {
   display: flex;
@@ -174,4 +174,30 @@ a {
 
 ::placeholder {
   color: #0000004b;
+}
+
+/* slider */
+
+#carouselExampleIndicators {
+  margin-top: 15px;
+}
+
+.carousel-control-prev-icon {
+  margin-right: 75px;
+}
+.carousel-control-next-icon {
+  margin-left: 75px;
+}
+.carousel-inner {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
