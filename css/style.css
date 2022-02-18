@@ -19,33 +19,32 @@ a {
   text-decoration: none !important;
 }
 
-#header {
-  height: 100px;
+.header {
 }
 
-#header .top-header {
+.header .top-header {
   background-color: var(--red);
-  height: 35px;
+  height: 45px;
 }
 
 .top-header-items {
   display: flex;
   align-items: center;
 }
-#header .top-header nav {
+.header .top-header nav {
   margin-right: 5px;
 }
-#header .top-header nav ul {
+.header .top-header nav ul {
   display: inline;
 }
 
-#header .top-header nav ul li {
+.header .top-header nav ul li {
   display: inline-block;
   margin-right: 15px;
   position: relative;
 }
 
-#header .top-header nav ul li::before {
+.header .top-header nav ul li::before {
   content: " ";
   position: absolute;
   width: 0;
@@ -59,7 +58,7 @@ a {
   -o-transition: all ease-in-out 0.4s;
 }
 
-#header .top-header nav ul li:hover::before {
+.header .top-header nav ul li:hover::before {
   content: " ";
   position: absolute;
   width: 50%;
@@ -67,7 +66,7 @@ a {
   background-color: #fff;
   bottom: -2px;
 }
-#header .top-header nav ul li a {
+.header .top-header nav ul li a {
   font-size: 11px;
   color: #fff;
   font-weight: 500;
@@ -104,7 +103,8 @@ a {
 /* bottom-heaeder */
 
 .bottom-header {
-  height: 45px;
+  /* height: 45px; */
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
 .bottom-header .category,
@@ -135,10 +135,43 @@ a {
 .login {
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 .login a {
-  color: #333;
   font-size: 12px;
   margin-left: 15px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search a {
+  color: rgba(19, 13, 13, 0.445);
+}
+.search a .search-icon {
+  position: absolute;
+  right: 5px;
+  top: 8px;
+}
+
+.search input {
+  outline: none;
+  border: 2px solid rgba(204, 204, 204, 0.685);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-size: 12px;
+  width: 350px;
+  padding-right: 35px;
+  height: 30px;
+  padding-left: 15px;
+}
+
+::placeholder {
+  color: #0000004b;
 }
