@@ -41,9 +41,11 @@ header nav {
 header nav ul {
 
   height: 60px;
-  line-height:3;
+  line-height: 3;
   align-content: end;
   display: flex;
+
+
   align-items: center;
   /* background:springgreen */
 }
@@ -85,4 +87,73 @@ header nav .logo a {
   text-decoration: none;
   color: #fff;
   font-size: 35px;
+}
+
+/* bottom-header */
+
+.bottom-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 75px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 22%);
+}
+
+.bottom-header-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.bottom-header-item .category{
+
+}
+
+.bottom-header-item .category span{
+  margin-right: 10px;
+  color: #303030;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
+.bottom-header-item .search-bar{
+  position: relative;
+}
+
+
+.bottom-header-item .search-bar input {
+  border: none;
+  width: 453px;
+  height:49px;
+  background: #F2F2F2;
+  padding: 8px 45px 8px 0;
+  border-radius:8px;font-size: 18px;
+  outline: none;
+}
+
+
+.bottom-header-item .search-bar span {
+  position: absolute;
+  right:8px;
+  top: 13px;
+}
+.bottom-header-item .register{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color:red; */
+}
+
+
+.bottom-header-item .register svg{
+  margin-left: 15px;
+  margin-top: 5px;
+
+}
+
+.bottom-header-item .register a{
+text-decoration: none;
+color: #303030;
 }
