@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+   nav ul{
+       visibility: hidden;
+   }
+
+   header nav .fa-bars{
+    display:block;
+  }
+
+  
+header nav {
+    /* background: salmon; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+     width: 100%;
+     padding: 0 30px ;
+  }
+
+  .bottom-header-item .category{
+      display: none;
+  }
+
+  /* .bottom-header-item{
+    padding: 0 30px ;
+  } */
+  
+  }

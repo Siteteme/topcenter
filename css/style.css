@@ -23,7 +23,7 @@
 
 .container {
   width: 1300px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .flex {
@@ -31,8 +31,10 @@
 }
 
 header {
+  display: flex;
   background: var(--red);
   height: 60px;
+  width: 100%;
 }
 
 header nav {
@@ -41,6 +43,15 @@ header nav {
   align-items: center;
   justify-content: space-between;
   height: 60px;
+   width: 100%;
+   padding: ;
+}
+
+header nav .fa-bars{
+  display:none;
+  margin-right: 30px;
+  font-size:35px;
+  color:#fff;
 }
 
 header nav ul {
@@ -111,7 +122,7 @@ header nav .logo a {
 
 }
 
-.bottom-header-item .category {}
+
 
 .bottom-header-item .category span {
   margin-right: 10px;
