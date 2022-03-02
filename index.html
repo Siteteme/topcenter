@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TopCenter</title>
     <link rel="stylesheet" href="./css/style.css">
-
-
     <link rel="stylesheet" href="/css/fontawesome.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
 
 </head>
@@ -50,20 +50,29 @@
                     <span>دسته محصولات</span>
                 </div>
                 <div class="search-bar">
-                    <span><svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 0.25C4.61522 0.25 0.25 4.61522 0.25 10C0.25 15.3848 4.61522 19.75 10 19.75C15.3848 19.75 19.75 15.3848 19.75 10C19.75 4.61522 15.3848 0.25 10 0.25ZM1.75 10C1.75 5.44365 5.44365 1.75 10 1.75C14.5563 1.75 18.25 5.44365 18.25 10C18.25 14.5563 14.5563 18.25 10 18.25C5.44365 18.25 1.75 14.5563 1.75 10Z" fill="#303030"/>
-                        <path d="M18.5304 17.4698C18.2375 17.1769 17.7626 17.1769 17.4697 17.4698C17.1768 17.7626 17.1768 18.2375 17.4697 18.5304L21.4696 22.5304C21.7625 22.8233 22.2374 22.8233 22.5303 22.5304C22.8232 22.2375 22.8232 21.7626 22.5303 21.4697L18.5304 17.4698Z" fill="#303030"/>
+                    <span><svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M10 0.25C4.61522 0.25 0.25 4.61522 0.25 10C0.25 15.3848 4.61522 19.75 10 19.75C15.3848 19.75 19.75 15.3848 19.75 10C19.75 4.61522 15.3848 0.25 10 0.25ZM1.75 10C1.75 5.44365 5.44365 1.75 10 1.75C14.5563 1.75 18.25 5.44365 18.25 10C18.25 14.5563 14.5563 18.25 10 18.25C5.44365 18.25 1.75 14.5563 1.75 10Z"
+                                fill="#303030" />
+                            <path
+                                d="M18.5304 17.4698C18.2375 17.1769 17.7626 17.1769 17.4697 17.4698C17.1768 17.7626 17.1768 18.2375 17.4697 18.5304L21.4696 22.5304C21.7625 22.8233 22.2374 22.8233 22.5303 22.5304C22.8232 22.2375 22.8232 21.7626 22.5303 21.4697L18.5304 17.4698Z"
+                                fill="#303030" />
                         </svg>
-                        </span>
+                    </span>
                     <input type="search" placeholder="جستجو کنید ...">
                 </div>
                 <div class="register">
                     <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6.18752 9.83555H18.2285" stroke="#130F26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M9.11523 6.97949L6.18723 9.83554L9.11523 12.6916" stroke="#130F26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M13.4956 5.29796V4.38414C13.4956 2.39098 11.8466 0.775879 9.81061 0.775879H4.92661C2.89661 0.775879 1.25161 2.38706 1.25161 4.37532V15.2863C1.25161 17.2795 2.90161 18.8955 4.93661 18.8955H9.82161C11.8506 18.8955 13.4956 17.2834 13.4956 15.2961V14.3735" stroke="#130F26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        
+                        <path d="M6.18752 9.83555H18.2285" stroke="#130F26" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M9.11523 6.97949L6.18723 9.83554L9.11523 12.6916" stroke="#130F26" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M13.4956 5.29796V4.38414C13.4956 2.39098 11.8466 0.775879 9.81061 0.775879H4.92661C2.89661 0.775879 1.25161 2.38706 1.25161 4.37532V15.2863C1.25161 17.2795 2.90161 18.8955 4.93661 18.8955H9.82161C11.8506 18.8955 13.4956 17.2834 13.4956 15.2961V14.3735"
+                            stroke="#130F26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
                     <a href="">ورورد | ثبت نام</a>
                 </div>
             </div>
@@ -73,11 +82,67 @@
     <!-- EndHeader -->
 
 
+    <!-- slider -->
+
+    <section class="slider">
+        <div class="container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper ">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="/image/5872.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/image/5872.png" alt=""></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- endSlider -->
+
+    <!-- banner -->
+
+    <section class="banner">
+        <div class="container ">
+            <div class="banner-items">
+            <img src="/image/banner02.png" alt="">
+            <img src="/image/banner03.png" alt="">
+            <img src="/image/banner01.png" alt="">
+        </div>
+        </div>
+    </section>
+<!-- endBanner -->
 
 
     <script src="/js/javascript.js"></script>
     <script src="/js/fontawesome.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
 
+
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            autoplay: {
+                delay: 5000,
+
+            },
+
+        });
+    </script>
 
 </body>
 
