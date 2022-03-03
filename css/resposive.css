@@ -1,3 +1,9 @@
+:root {
+  --red: #ef3f55;
+  --wihte: #fff;
+}
+
+
 @media screen and (max-width:1400px) {
   .container {
     width: 90%;
@@ -7,7 +13,7 @@
 
 @media screen and (max-width:992px) {
   header nav ul {
-    display:none;
+    display: none;
   }
 
   header nav .fa-bars {
@@ -15,6 +21,59 @@
     cursor: pointer;
   }
 
+  #responsive-nav {
+    display: none;
+    width: 40%;
+    position: absolute;
+    height: 100vw;
+    top: 0;
+    right: -569px;
+    background: var(--red);
+    z-index: 99;
+    padding: 39px;
+    bottom: 0;
+    animation-name: show;
+    animation-duration: 500ms;
+  }
+
+  @keyframes show {
+    from {right: -569px;}
+    to {right: 0;}
+  }
+
+  .cancel img{
+    width: 25px;
+  }
+
+  .cancel {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 30px;
+
+  }
+
+
+  #responsive-nav.active {
+    display: block;
+    right: 0;
+    transition: right 0.5s ease-in-out;
+
+  }
+
+  #responsive-nav ul {
+    display: block;
+  }
+
+  #responsive-nav ul li {
+    list-style: none;
+    margin-top: 20px;
+  }
+
+  #responsive-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
 
   header nav {
     /* background: salmon; */
@@ -36,7 +95,7 @@
 @media screen and (max-width: 768px) {
 
 
-  .bottom-header-item .search-bar input{
+  .bottom-header-item .search-bar input {
     width: 350px;
   }
 }
@@ -49,11 +108,11 @@
 @media screen and (max-width: 565px) {
 
 
-  .bottom-header-item .search-bar{
-    display:none;
+  .bottom-header-item .search-bar {
+    display: none;
   }
 
-  .bottom-header-item .register{
+  .bottom-header-item .register {
     margin: auto;
   }
 }

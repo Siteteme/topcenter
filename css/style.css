@@ -92,6 +92,12 @@ header nav ul li a {
   text-decoration: none;
   color: #fff;
 
+
+
+}
+
+#responsive-nav{
+  display: none;
 }
 
 header nav .logo {
