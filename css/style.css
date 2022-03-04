@@ -236,10 +236,11 @@ header nav .logo a {
 
 .Bestselling-products {
   background: #FAFAFA;
-  padding: 20px 0;
+  padding: 30px;
   height: auto;
   display: flex;
   margin-top: 40px;
+  border-radius:10px;
 }
 
 .Bestselling-products .tittle {
@@ -252,10 +253,14 @@ header nav .logo a {
 .Bestselling-products .products-items {
   display: flex;
   width: 100%;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+
+}
+
+.Bestselling-products .products-items .product-img img {
+width: 100%;
 
 }
 
@@ -275,9 +280,8 @@ header nav .logo a {
 }
 
 .Bestselling-products .products {
-  margin-top: 25px;
-  background: white;
-  width: 295px;
+  background: #fff;
+  width: 289px;
   height: 314px;
   display: flex;
   flex-direction: column;
@@ -286,7 +290,7 @@ header nav .logo a {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.17);
   border-radius: 20px;
   overflow: hidden;
-  margin: 25px 15px;
+  margin:25px 0;
 }
 
 
