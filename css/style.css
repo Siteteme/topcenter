@@ -100,6 +100,12 @@ header nav ul li a {
   display: none;
 }
 
+.hamberger .hamberger-icon{
+  width: 40px;
+  color: #fff;
+  margin-top: 8px;
+}
+
 #responsive-nav {
   display: none;
 }
