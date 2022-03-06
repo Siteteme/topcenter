@@ -193,7 +193,7 @@ header nav .logo a {
 /* slider */
 
 .slider {
-  margin-top: 35px;
+  margin: 35px 0;
 }
 
 .swiper-slide img {
@@ -220,6 +220,7 @@ header nav .logo a {
 /* banner */
 
 .banner{
+  margin: 20px 0;
   height:auto;
 }
 .banner-items {
@@ -244,7 +245,7 @@ header nav .logo a {
   background: #FAFAFA;
   height: auto;
   display: flex;
-  margin-top: 40px;
+  margin: 20px 0;
   border-radius:10px;
   padding: 20px;
 }
@@ -336,3 +337,86 @@ width: 100%;
   justify-content: space-around;
 }
 
+
+/*banner-ads*/
+
+.banner-ads{
+  width: 100%;
+  margin: 20px 0;
+}
+
+.banner-ads img{
+  width: 100%;
+  border-radius: 8px;
+  transition: all .4s ease-in-out;
+}
+
+.banner-ads img:hover{
+  opacity: .8;
+}
+
+
+/*banner-service*/
+
+
+.banner-service{
+  width: 100%;
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.banner-service img{
+  width: 100%;
+  border-radius: 8px;
+  transition: all .4s ease-in-out;
+}
+
+.banner-service img:hover{
+  opacity: .8;
+}
+
+/*further*/
+
+.further-top-center{
+  margin: 20px 0;
+  background: #EF3F55;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+
+.further-top-center .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 8px;
+  background: #f4f4f4;
+  margin: 15px;
+  height: 150px;
+
+}
+.further-top-center .item a{
+  transition: all .4s ease-in-out;
+}
+.further-top-center .item:hover a{
+  color:#FFC120 ;
+
+}
+
+.further-top-center .item>*{
+  margin-bottom: 15px;
+}
+
+.further-top-center .item img{
+  width: 21%;
+  object-fit: cover;
+}
+
+
+.further-top-center .item a{
+  text-decoration: none;
+  color: #000000;
+}

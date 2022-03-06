@@ -175,6 +175,14 @@
     width: 309px;
   }
 
+  .banner-service{
+    width: 100%;
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
 }
 
 
