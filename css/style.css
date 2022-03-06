@@ -12,7 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: IRANYekan;
+  font-family: IRANYekan , sans-serif;
 }
 
 .bg-red {
@@ -108,7 +108,7 @@ header nav ul li a {
 
 
 header nav .logo a {
-  font-family: poppins;
+  font-family: poppins,sans-serif;;
   text-decoration: none;
   color: #fff;
   font-size: 35px;
@@ -232,15 +232,15 @@ header nav .logo a {
 
 
 
-/* produtct */
+/* product */
 
 .Bestselling-products {
   background: #FAFAFA;
-  padding: 30px;
   height: auto;
   display: flex;
   margin-top: 40px;
   border-radius:10px;
+  padding: 20px;
 }
 
 .Bestselling-products .tittle {
@@ -251,11 +251,10 @@ header nav .logo a {
 }
 
 .Bestselling-products .products-items {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
   width: 100%;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
 
 }
 
@@ -287,7 +286,7 @@ width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.17);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.17);
   border-radius: 20px;
   overflow: hidden;
   margin:25px 0;
